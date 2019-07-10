@@ -33,6 +33,7 @@ func (p Polygon) Contains(q Point) bool {
 
 }
 
+// https://de.wikipedia.org/wiki/Diskussion:Punkt-in-Polygon-Test_nach_Jordan (2019-07-10 22:44:24)
 func pnpoly(p Polygon, q Point) bool {
 	var i int
 	var c bool
